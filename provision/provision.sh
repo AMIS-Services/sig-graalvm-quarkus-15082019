@@ -50,6 +50,9 @@ rm -f /tmp/graalvm.tar.gz
 
 #Set GRAALVM_HOME
 echo 'export GRAALVM_HOME=/usr/lib/jvm/graalvm' > /etc/profile.d/setGRAALVM_HOME.sh
+#Set JAVA_HOME
+echo 'export JAVA_HOME=/usr/lib/jvm/graalvm' > /etc/profile.d/setJAVA_HOME.sh
+
 
 #Install Minikube
 wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
