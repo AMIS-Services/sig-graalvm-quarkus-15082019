@@ -52,6 +52,7 @@ rm -f /tmp/graalvm.tar.gz
 echo 'export GRAALVM_HOME=/usr/lib/jvm/graalvm' > /etc/profile.d/setGRAALVM_HOME.sh
 #Set JAVA_HOME
 echo 'export JAVA_HOME=/usr/lib/jvm/graalvm' > /etc/profile.d/setJAVA_HOME.sh
+echo 'export PATH=$PATH:/usr/lib/jvm/graalvm/bin' > /etc/profile.d/addgraalvmtopath.sh
 
 
 #Install Minikube
